@@ -135,6 +135,10 @@ nav ul {
   align-items: center;
 }
 
+#menu-icon:hover {
+  cursor: pointer;
+}
+
 /* Slideout Menu */
 
 #slideout-menu {
