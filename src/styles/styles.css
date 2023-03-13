@@ -54,7 +54,7 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background: rgba(0, 0, 0, 0.2) url('src/img/logoMasjid.png'); */
+  background: rgba(0, 0, 0, 0.2) url('src/img/logoMasjid.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -67,23 +67,6 @@ textarea:focus {
   border-radius: 8px;
   padding: 0 24px;
   font-size: 24px;
-}
-
-/* Search Box */
-
-#searchbox {
-  position: fixed;
-  right: 0;
-  top: 24px;
-  width: 500px;
-  pointer-events: none;
-  z-index: 50;
-  transition: 0.4s;
-}
-
-#searchbox input {
-  height: 48px;
-  width: 100%;
 }
 
 /* Navigation */
@@ -130,19 +113,14 @@ nav ul {
 #logo-img {
   display: flex;
   height: 100%;
-  background: #111;
+  background: rgb(255, 255, 255);
   padding: 0 32px;
   align-items: center;
-  color: white;
   transition: 0.4s;
 }
 
 #logo-img img {
   height: 100px;
-}
-
-#logo-img:hover {
-  background: black;
 }
 
 #menu-icon {
@@ -152,19 +130,6 @@ nav ul {
   color: #eee;
   display: none;
   align-items: center;
-}
-
-/* Search Icon */
-
-#search-icon {
-  color: white;
-  padding: 0 32px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-#search-icon:hover {
-  color: red;
 }
 
 /* Slideout Menu */
@@ -449,10 +414,6 @@ footer #social-media-footer ul li:hover a .fa-github {
 
   #slideout-menu {
     display: block;
-  }
-
-  #searchbox {
-    display: none;
   }
 
   #blogpost {
