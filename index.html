@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!--=============== BOXICONS ===============-->
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab"
+      rel="stylesheet"
+    />
+
+    <title>Responsive real state website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <div id="slideout-menu">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="blogslist.html">Blog</a>
+        </li>
+        <li>
+          <a href="blogslist.html">Projects</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <input type="text" placeholder="Search Here" />
+        </li>
+      </ul>
+    </div>
+
+    <nav>
+      <div id="logo-img">
+        <a href="#">
+          <img src="src/img/logo.png" alt="IMAGE HERE" />
+        </a>
+      </div>
+      <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+        <li>
+          <a class="active" href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="blogslist.html">Blog</a>
+        </li>
+        <li>
+          <a href="blogslist.html">Projects</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <div id="search-icon">
+            <i class="fas fa-search"></i>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="searchbox">
+      <input type="text" placeholder="Search Here" />
+    </div>
+
+    <div id="banner">
+      <h1>&lt;GTCoding/&gt;</h1>
+      <h3>Learn coding from scratch</h3>
+    </div>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home"></section>
+
+      <!--==================== LOGOS ====================-->
+      <section class="logos section"></section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="info">
+        <swiper-container
+          class="info-swiper"
+          keyboard="true"
+          pagination="true"
+          pagination-clickable="true"
+          navigation="true"
+          space-between="30"
+          loop="true"
+        >
+          <swiper-slide>
+            <img src="src/img/dhuha.jpg" class="info_img" />
+          </swiper-slide>
+
+          <swiper-slide>
+            <img src="src/img/nikah.jpg" class="info_img" />
+          </swiper-slide>
+
+          <swiper-slide>
+            <img src="src/img/memanah.jpg" class="info_img" />
+          </swiper-slide>
+        </swiper-container>
+      </section>
+
+      <!--==================== VALUE ====================-->
+      <section class="value section" id="value"></section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact"></section>
+
+      <!--==================== SUBSCRIBE ====================-->
+      <section class="subscribe section"></section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section"></footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="src/main.js"></script>
+  </body>
+</html>
